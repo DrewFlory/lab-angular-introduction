@@ -1,0 +1,27 @@
+img {
+    height: 15rem;
+    width: 18rem;
+}
+
+.album {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 3rem;
+}
+
+h1 {
+    color: rgb(68, 13, 68);
+    font-size: 40px;
+    text-align: center;
+}
+
+.pic-details {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+p {
+    color: rgb(68, 13, 68);
+    font-size: 18px;
+}
