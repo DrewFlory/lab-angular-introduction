@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+
+<div class="page">
+  <div *ngFor = "let oneTeam of arrayOfChamps" class="teams">
+
+    <h1>{{oneTeam.year}}</h1>
+
+    <h1>{{oneTeam.champion}}</h1>
+
+    <img src="{{oneTeam.championUrl}}" alt="">
+
+    <h2>Best Players</h2>
+
+    <p *ngFor = "let onePlayer of oneTeam.bestPlayers">{{onePlayer}}</p>
+
+  </div>
+</div>
+
